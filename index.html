@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMaNGOS WoW Classic 1.12.1 - Guía Interactiva</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>CMaNGOS WoW Classic 1.12.1</h1>
+    <p>Guía interactiva de comandos + catálogo de ítems</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>Comandos GM</h2>
+      <div class="toolbar">
+        <input id="commandSearch" type="search" placeholder="Buscar comando, descripción o categoría..." />
+        <select id="categoryFilter">
+          <option value="all">Todas las categorías</option>
+        </select>
+      </div>
+      <p class="note">Pulsa <strong>Copiar</strong> para llevarte el comando al juego.</p>
+      <div id="commandsGrid" class="grid"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Ítems (rápido .additem)</h2>
+      <div class="toolbar">
+        <input id="itemSearch" type="search" placeholder="Buscar ítem por nombre o ID..." />
+      </div>
+      <p class="note">Comando generado: <code>.additem ID CANTIDAD</code></p>
+      <div id="itemsGrid" class="item-grid"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
