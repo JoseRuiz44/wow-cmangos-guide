@@ -10,7 +10,7 @@
   <header class="topbar">
     <div class="wrap">
       <h1>CMaNGOS WoW Classic 1.12.1</h1>
-      <p>Guía interactiva de comandos + catálogo de ítems</p>
+      <p>Comandos por secciones/subsecciones + catálogo de ítems (sets, legendarios, épicos, raros)</p>
     </div>
   </header>
 
@@ -20,44 +20,35 @@
         <h2>Comandos GM</h2>
         <span id="commandsCount" class="badge"></span>
       </div>
-
       <div class="toolbar">
-        <input id="commandSearch" type="search" placeholder="Buscar comando, descripción o categoría..." />
-        <select id="categoryFilter">
-          <option value="all">Todas las categorías</option>
-        </select>
+        <input id="commandSearch" type="search" placeholder="Buscar comando, alias, descripción..." />
+        <select id="sectionFilter"><option value="all">Todas las secciones</option></select>
+        <select id="subsectionFilter"><option value="all">Todas las subsecciones</option></select>
       </div>
-
-      <p class="note">Pulsa <strong>Copiar</strong> para llevarte el comando al juego.</p>
-      <div id="commandsGrid" class="grid"></div>
+      <div id="commandsSections"></div>
     </section>
 
     <section class="panel">
       <div class="panel-head">
-        <h2>Ítems (rápido .additem)</h2>
+        <h2>Ítems</h2>
         <span id="itemsCount" class="badge"></span>
       </div>
-
-      <div class="toolbar toolbar-items">
-        <input id="itemSearch" type="search" placeholder="Buscar ítem por nombre o ID..." />
-        <input id="itemQty" type="number" min="1" value="1" title="Cantidad por defecto" />
+      <div class="toolbar">
+        <input id="itemSearch" type="search" placeholder="Buscar item por nombre o ID..." />
+        <select id="qualityFilter">
+          <option value="all">Todas las calidades</option>
+          <option value="legendary">Legendarios</option>
+          <option value="epic">Épicos</option>
+          <option value="rare">Raros</option>
+        </select>
+        <input id="itemQty" type="number" min="1" value="1" />
       </div>
-
-      <p class="note">Comando generado: <code>.additem ID CANTIDAD</code></p>
-      <div id="itemsGrid" class="item-grid"></div>
+      <div id="itemsSections"></div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="wrap">
-      <small>
-        Nota: Esta guía está enfocada en WoW Classic 1.12.1 con sintaxis típica de CMaNGOS/mangos.
-        Algunos comandos pueden variar según core/revisión.
-      </small>
-    </div>
-  </footer>
-
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="tooltip" class="tooltip"></div>
+  <div id="toast" class="toast"></div>
 
   <script src="script.js"></script>
 </body>

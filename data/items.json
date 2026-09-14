@@ -1,0 +1,22 @@
+[
+  {"id":19019,"name":"Thunderfury, Blessed Blade of the Windseeker","quality":"legendary","group":"legendary","set":"","type":"Sword","slot":"Main Hand","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_sword_39.jpg"},
+  {"id":17182,"name":"Sulfuras, Hand of Ragnaros","quality":"legendary","group":"legendary","set":"","type":"Mace","slot":"Two-Hand","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_hammer_unique_sulfuras.jpg"},
+  {"id":19364,"name":"Ashkandi, Greatsword of the Brotherhood","quality":"epic","group":"epic","set":"","type":"Sword","slot":"Two-Hand","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_sword_50.jpg"},
+  {"id":17063,"name":"Band of Accuria","quality":"epic","group":"epic","set":"","type":"Ring","slot":"Finger","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_15.jpg"},
+  {"id":18832,"name":"Brutality Blade","quality":"epic","group":"epic","set":"","type":"Sword","slot":"One-Hand","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_sword_48.jpg"},
+  {"id":18803,"name":"Finkle's Lava Dredger","quality":"epic","group":"epic","set":"","type":"Mace","slot":"Two-Hand","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_mace_13.jpg"},
+  {"id":12940,"name":"Dal'Rend's Sacred Charge","quality":"rare","group":"rare","set":"","type":"Sword","slot":"Main Hand","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_sword_43.jpg"},
+  {"id":13143,"name":"Mark of the Dragon Lord","quality":"rare","group":"rare","set":"","type":"Trinket","slot":"Trinket","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_talisman_09.jpg"},
+
+  {"id":16865,"name":"Breastplate of Might","quality":"epic","group":"set","set":"Tier 1 - Might (Warrior)","type":"Plate","slot":"Chest","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate03.jpg"},
+  {"id":16866,"name":"Helm of Might","quality":"epic","group":"set","set":"Tier 1 - Might (Warrior)","type":"Plate","slot":"Head","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_helmet_09.jpg"},
+  {"id":16868,"name":"Pauldrons of Might","quality":"epic","group":"set","set":"Tier 1 - Might (Warrior)","type":"Plate","slot":"Shoulder","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_15.jpg"},
+
+  {"id":16827,"name":"Nightslayer Belt","quality":"epic","group":"set","set":"Tier 1 - Nightslayer (Rogue)","type":"Leather","slot":"Waist","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_belt_23.jpg"},
+  {"id":16824,"name":"Nightslayer Armor","quality":"epic","group":"set","set":"Tier 1 - Nightslayer (Rogue)","type":"Leather","slot":"Chest","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_09.jpg"},
+  {"id":16821,"name":"Nightslayer Cover","quality":"epic","group":"set","set":"Tier 1 - Nightslayer (Rogue)","type":"Leather","slot":"Head","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_helmet_41.jpg"},
+
+  {"id":16814,"name":"Pants of Prophecy","quality":"epic","group":"set","set":"Tier 1 - Prophecy (Priest)","type":"Cloth","slot":"Legs","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_pants_08.jpg"},
+  {"id":16813,"name":"Circlet of Prophecy","quality":"epic","group":"set","set":"Tier 1 - Prophecy (Priest)","type":"Cloth","slot":"Head","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_helmet_24.jpg"},
+  {"id":16811,"name":"Boots of Prophecy","quality":"epic","group":"set","set":"Tier 1 - Prophecy (Priest)","type":"Cloth","slot":"Feet","icon":"https://wow.zamimg.com/images/wow/icons/large/inv_boots_07.jpg"}
+]

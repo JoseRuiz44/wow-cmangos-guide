@@ -1,0 +1,53 @@
+[
+  {"section":"Cuenta","subsection":"Gestión","command":".account","description":"Ayuda de cuenta","alias":""},
+  {"section":"Cuenta","subsection":"Gestión","command":".account create <user> <pass>","description":"Crear cuenta","alias":""},
+  {"section":"Cuenta","subsection":"Gestión","command":".account delete <user>","description":"Borrar cuenta","alias":""},
+  {"section":"Cuenta","subsection":"Permisos","command":".account set gmlevel <user> <nivel>","description":"Asignar nivel GM","alias":""},
+
+  {"section":"Jugador","subsection":"Teletransporte","command":".namego <name>","description":"Ir al jugador","alias":".appear"},
+  {"section":"Jugador","subsection":"Teletransporte","command":".goname <name>","description":"Traer jugador","alias":".summon"},
+  {"section":"Jugador","subsection":"Moderación","command":".kick <name>","description":"Expulsar jugador","alias":""},
+  {"section":"Jugador","subsection":"Moderación","command":".ban account <acc> <tiempo> <motivo>","description":"Ban de cuenta","alias":""},
+  {"section":"Jugador","subsection":"Moderación","command":".unban account <acc>","description":"Quitar ban","alias":""},
+  {"section":"Jugador","subsection":"Progreso","command":".levelup [n]","description":"Subir nivel","alias":""},
+  {"section":"Jugador","subsection":"Progreso","command":".modify level <nivel>","description":"Fijar nivel","alias":""},
+  {"section":"Jugador","subsection":"Progreso","command":".modify money <cobre>","description":"Modificar dinero","alias":""},
+
+  {"section":"Ítems","subsection":"Alta/Baja","command":".additem <id> [cantidad]","description":"Añadir item","alias":""},
+  {"section":"Ítems","subsection":"Alta/Baja","command":".additemset <setId>","description":"Añadir set","alias":""},
+  {"section":"Ítems","subsection":"Búsqueda","command":".lookup item <texto>","description":"Buscar item por nombre","alias":""},
+  {"section":"Ítems","subsection":"Auditoría","command":".listitem <id>","description":"Quién tiene ese item","alias":""},
+
+  {"section":"Hechizos","subsection":"Gestión","command":".learn <spellId>","description":"Aprender hechizo","alias":""},
+  {"section":"Hechizos","subsection":"Gestión","command":".unlearn <spellId>","description":"Olvidar hechizo","alias":""},
+  {"section":"Hechizos","subsection":"Lanzamiento","command":".cast <spellId>","description":"Lanzar hechizo","alias":""},
+  {"section":"Hechizos","subsection":"Auras","command":".aura <spellId>","description":"Aplicar aura","alias":""},
+
+  {"section":"Mundo","subsection":"Posición","command":".gps","description":"Ver coordenadas","alias":""},
+  {"section":"Mundo","subsection":"Posición","command":".go xyz <x> <y> <z> [map]","description":"TP a coordenadas","alias":""},
+  {"section":"Mundo","subsection":"Posición","command":".go creature <guid>","description":"Ir a criatura","alias":""},
+  {"section":"Mundo","subsection":"Posición","command":".go object <guid>","description":"Ir a objeto","alias":""},
+
+  {"section":"Spawns","subsection":"NPC","command":".npc add <entry>","description":"Crear NPC","alias":""},
+  {"section":"Spawns","subsection":"NPC","command":".npc delete","description":"Borrar NPC","alias":""},
+  {"section":"Spawns","subsection":"NPC","command":".npc move","description":"Mover NPC","alias":""},
+  {"section":"Spawns","subsection":"NPC","command":".npc info","description":"Info NPC","alias":""},
+  {"section":"Spawns","subsection":"GameObject","command":".gobject add <entry>","description":"Crear GO","alias":""},
+  {"section":"Spawns","subsection":"GameObject","command":".gobject delete","description":"Borrar GO","alias":""},
+  {"section":"Spawns","subsection":"GameObject","command":".gobject move","description":"Mover GO","alias":""},
+  {"section":"Spawns","subsection":"GameObject","command":".gobject info","description":"Info GO","alias":""},
+
+  {"section":"Servidor","subsection":"General","command":".server info","description":"Estado del server","alias":""},
+  {"section":"Servidor","subsection":"General","command":".saveall","description":"Guardar todos","alias":""},
+  {"section":"Servidor","subsection":"Mensajes","command":".announce <texto>","description":"Anuncio global","alias":""},
+  {"section":"Servidor","subsection":"Mensajes","command":".notify <texto>","description":"Notificación global","alias":""},
+  {"section":"Servidor","subsection":"Control","command":".server shutdown <seg>","description":"Apagar servidor","alias":""},
+  {"section":"Servidor","subsection":"Control","command":".server restart <seg>","description":"Reiniciar servidor","alias":""},
+  {"section":"Servidor","subsection":"Recarga","command":".reload all","description":"Recargar tablas","alias":""},
+
+  {"section":"Debug","subsection":"Eventos","command":".event activelist","description":"Eventos activos","alias":""},
+  {"section":"Debug","subsection":"Eventos","command":".event start <id>","description":"Iniciar evento","alias":""},
+  {"section":"Debug","subsection":"Eventos","command":".event stop <id>","description":"Detener evento","alias":""},
+  {"section":"Debug","subsection":"Lookup","command":".lookup spell <texto>","description":"Buscar spell","alias":""},
+  {"section":"Debug","subsection":"Lookup","command":".lookup creature <texto>","description":"Buscar criatura","alias":""}
+]
